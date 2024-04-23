@@ -37,14 +37,17 @@ section {
     gap: 4px;
     align-items: center;
 }
+aside{
+    
+    color: hsl(178, 100%, 50%) ;
+}
+div {
+    color:  hsl(215, 51%, 70%);
+    
+}
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
-div {
-    color:  hsl(215, 51%, 70%);
-}
-aside {
-     color: hsl(178, 100%, 50%) ;
-}
+
