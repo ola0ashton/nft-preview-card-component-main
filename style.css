@@ -1,19 +1,19 @@
-*{
+* {
     margin: o;
 }
-body{
+body {
      background-color: hsl(217, 54%, 11%);
 }
-#image-equilibrium{
+#image-equilibrium {
     width: 200px;
     height: 320px;
-    border-radius: 0px;
+    border-radius: 8px;
 }
-main{
+main {
     border: 1px solid black;
     border-radius: 11px;
     background: hsl(216, 50%, 16%);
-    width: 290px;
+    width: 270px;
     height: 450px;
     padding: 19px;
     box-shadow: 0px 5px 1px 7px hsla(0, 0%, 0%, 0.425); 
@@ -29,15 +29,15 @@ main{
 h1 {
     color: hsl(0, 0%, 100%);
 }
-p{
+p {
     color: hsl(215, 51%, 70%) ;
 }
-section{
+section {
     display: flex;
-    gap: 3px;
+    gap: 4px;
     align-items: center;
 }
-.flex-container{
+.flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
