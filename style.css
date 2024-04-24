@@ -38,16 +38,20 @@ section {
     align-items: center;
 }
 aside{
-    
     color: hsl(178, 100%, 50%) ;
 }
 div {
     color:  hsl(215, 51%, 70%);
-    
 }
 .flex-container {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
 }
-
+.multicolortext {
+    background-image: linear-gradient(to left,  hsl(0, 0%, 100%), hsl(215, 51%, 70%),);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    
+  }
