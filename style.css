@@ -20,12 +20,12 @@ main {
     margin: auto;
     margin-top: 7vh;
 }
-.attribution { 
+/* .attribution { 
     font-size: 11px; text-align: center;
  }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+} */
 h1 {
     color: hsl(0, 0%, 100%);
 }
@@ -48,10 +48,4 @@ div {
     flex-flow: row wrap;
     justify-content: space-between;
 }
-.multicolortext {
-    background-image: linear-gradient(to left,  hsl(0, 0%, 100%), hsl(215, 51%, 70%),);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    
-  }
+
